@@ -22,7 +22,7 @@ public class SwaggerConfiguration {
 	public Docket api() {
 		return new Docket(DocumentationType.SWAGGER_2)
 			.select()
-			.apis(RequestHandlerSelectors.basePackage("com.fedex.ride.rrd"))
+			.apis(RequestHandlerSelectors.basePackage("com.project.inventorymanagement"))
 			.paths(PathSelectors.any())
 			.build()
 			.pathMapping("/")
